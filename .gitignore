@@ -1,0 +1,24 @@
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Local vector stores and generated databases
+db/
+dbv2/
+chroma_db/
+
+# Python cache and tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Generated pipeline outputs
+chunks_export.json
+rag_results.json
+synthetic_questions.txt
